@@ -1,0 +1,486 @@
+/* ===== CONTAINER ===== */
+.dashboard-container {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+/* ===== TITLE ===== */
+.dashboard-title {
+  font-weight: 800 !important;
+  font-size: 2.6rem !important;
+  color: #0A1931;
+  letter-spacing: 1px;
+}
+
+/* ===== DISCIPLINE SCORE ===== */
+.discipline-score {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  padding: 14px 28px;
+  border-radius: 40px;
+  background-color: #1A3D63;
+  color: white;
+  box-shadow: 0 10px 25px rgba(26, 61, 99, 0.4);
+  transition: 0.3s ease;
+}
+
+.discipline-score:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 35px rgba(26, 61, 99, 0.6);
+}
+
+/* ===== BIG STAT CARDS ===== */
+.stat-card {
+  min-height: 20px;
+  width: 170px;
+  border-radius: 25px !important;
+  background-color: #378aca;
+  border: 2px solid #4A7FA7;
+  box-shadow: 0 15px 35px rgba(10, 25, 49, 0.08);
+  transition: 0.4s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(10, 25, 49, 0.15);
+}
+
+.stat-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #4A7FA7;
+  margin-bottom: 15px !important;
+}
+
+.stat-number {
+  font-size: 3.8rem !important;
+  font-weight: 900 !important;
+  color: #0A1931;
+}
+
+/* ===== SECTION TITLES ===== */
+.section-title {
+  font-size: 1.9rem !important;
+  font-weight: 800 !important;
+  margin-top: 70px !important;
+  margin-bottom: 25px !important;
+  color: #0A1931;
+  border-left: 6px solid #4A7FA7;
+  padding-left: 15px;
+}
+
+/* ===== DEADLINES ===== */
+.deadline-box {
+  padding: 22px 28px;
+  border-radius: 18px;
+  margin-bottom: 18px;
+  background: white;
+  border-left: 6px solid #1A3D63;
+  box-shadow: 0 8px 25px rgba(10, 25, 49, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s ease;
+}
+
+.deadline-box:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 30px rgba(10, 25, 49, 0.15);
+}
+
+.deadline-urgent {
+  border-left: 6px solid #0A1931;
+  background-color: #eef3f8;
+}
+
+.deadline-warning {
+  border-left: 6px solid #4A7FA7;
+  background-color: #f4f8fb;
+}
+
+.deadline-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1A3D63;
+}
+
+.deadline-days {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #0A1931;
+}
+
+/* ===== BADGES ===== */
+.badge-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.badge-item {
+  padding: 14px 30px;
+  border-radius: 30px;
+  font-weight: 700;
+  background-color: #4A7FA7;
+  color: white;
+  box-shadow: 0 8px 20px rgba(74, 127, 167, 0.3);
+  transition: 0.3s ease;
+}
+
+.badge-item:hover {
+  transform: scale(1.1);
+  background-color: #1A3D63;
+}
+
+/* ===== SUMMARY SECTION ===== */
+.summary-text {
+  margin-top: 30px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 18px 28px;
+  border-radius: 15px;
+  background-color: #1A3D63;
+  color: white;
+  box-shadow: 0 10px 25px rgba(26, 61, 99, 0.3);
+  transition: 0.3s ease;
+}
+
+.summary-text:hover {
+  transform: scale(1.03);
+}
+/* ===== DEADLINES SCROLL CONTAINER ===== */
+.deadlines-wrapper {
+  max-height: 300px;      /* fixed height */
+  overflow-y: auto;       /* vertical scroll */
+  padding-right: 10px;
+}
+
+/* Smooth Scrollbar (Professional Look) */
+.deadlines-wrapper::-webkit-scrollbar {
+  width: 6px;
+}
+
+.deadlines-wrapper::-webkit-scrollbar-thumb {
+  background-color: #4A7FA7;
+  border-radius: 10px;
+}
+
+.deadlines-wrapper::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* ===== VIEW GOALS PAGE ===== */
+
+.goals-paper {
+  padding: 30px;
+  border-radius: 25px !important;
+  box-shadow: 0 15px 35px rgba(10, 25, 49, 0.08);
+}
+
+.add-goal-btn {
+  background-color: #1A3D63 !important;
+  font-weight: 600 !important;
+  border-radius: 30px !important;
+  padding: 10px 25px !important;
+  transition: 0.3s ease !important;
+}
+
+.add-goal-btn:hover {
+  background-color: #0A1931 !important;
+  transform: scale(1.05);
+}
+
+.goal-card {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  padding: 20px 10px !important;
+  margin-bottom: 20px !important;
+  border-radius: 18px !important;
+  background: white;
+  box-shadow: 0 8px 25px rgba(10, 25, 49, 0.08);
+  transition: 0.3s ease;
+}
+
+.goal-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(10, 25, 49, 0.15);
+}
+
+.goal-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.goal-title {
+  font-size: 1.3rem !important;
+  font-weight: 700 !important;
+  color: #1A3D63;
+}
+
+.goal-description {
+  margin-top: 8px !important;
+  font-size: 0.95rem !important;
+  color: #4A7FA7;
+}
+
+.goal-progress {
+  margin-top: 12px !important;
+  height: 10px !important;
+  border-radius: 10px !important;
+  background-color: #eef3f8 !important;
+}
+
+.goal-progress .MuiLinearProgress-bar {
+  background-color: #1A3D63 !important;
+}
+
+.goal-progress-text {
+  margin-top: 6px !important;
+  font-weight: 600 !important;
+  color: #0A1931;
+}
+/* ===== SCROLLABLE GOALS CONTAINER ===== */
+
+.goals-scroll-container {
+  max-height: 450px;      /* fixed height */
+  overflow-y: auto;       /* vertical scroll */
+  padding-right: 10px;
+}
+
+/* Smooth Professional Scrollbar */
+.goals-scroll-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.goals-scroll-container::-webkit-scrollbar-thumb {
+  background-color: #4A7FA7;
+  border-radius: 10px;
+}
+
+.goals-scroll-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* ===== ADD GOAL PAGE ===== */
+
+.add-goal-paper {
+  padding: 40px;
+  margin-top: 50px;
+  border-radius: 30px !important;
+  box-shadow: 0 20px 45px rgba(10, 25, 49, 0.12);
+  position: relative;
+  transition: 0.3s ease;
+}
+
+.add-goal-paper:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 25px 55px rgba(10, 25, 49, 0.18);
+}
+
+.close-btn {
+  position: absolute !important;
+  top: 15px;
+  right: 15px;
+  background-color: #f4f8fb !important;
+}
+
+.close-btn:hover {
+  background-color: #eef3f8 !important;
+}
+
+.clear-btn {
+  border-radius: 30px !important;
+  font-weight: 600 !important;
+  border: 2px solid #4A7FA7 !important;
+  color: #4A7FA7 !important;
+  transition: 0.3s ease !important;
+}
+
+.clear-btn:hover {
+  background-color: #4A7FA7 !important;
+  color: white !important;
+}
+/* ===== ADD TASK PAGE (No JSX Changes Needed) ===== */
+
+/* Target the Paper inside AddTask page */
+.MuiContainer-root .MuiPaper-root {
+  border-radius: 30px !important;
+  box-shadow: 0 20px 45px rgba(10, 25, 49, 0.12) !important;
+  transition: 0.3s ease !important;
+}
+
+.MuiContainer-root .MuiPaper-root:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 25px 55px rgba(10, 25, 49, 0.18) !important;
+}
+
+/* Style Heading */
+.MuiContainer-root h2 {
+  font-weight: 800;
+  font-size: 2rem;
+  color: #0A1931;
+  margin-bottom: 20px;
+}
+
+/* Primary Button Styling */
+.MuiButton-contained {
+  background-color: #1A3D63 !important;
+  border-radius: 30px !important;
+  font-weight: 600 !important;
+  transition: 0.3s ease !important;
+}
+
+.MuiButton-contained:hover {
+  background-color: #0A1931 !important;
+  transform: scale(1.05);
+}
+
+/* Cancel Button */
+.MuiButton-outlinedSecondary {
+  border-radius: 30px !important;
+  border: 2px solid #4A7FA7 !important;
+  color: #4A7FA7 !important;
+  font-weight: 600 !important;
+  transition: 0.3s ease !important;
+}
+
+.MuiButton-outlinedSecondary:hover {
+  background-color: #4A7FA7 !important;
+  color: white !important;
+}
+
+/* TextField Focus Color */
+.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #1A3D63 !important;
+}
+
+.MuiInputLabel-root.Mui-focused {
+  color: #1A3D63 !important;
+}
+/* ===== VIEW TASKS PAGE ===== */
+
+/* Page Title */
+.MuiContainer-root h5 {
+  font-weight: 800 !important;
+  font-size: 2rem !important;
+  color: #0A1931 !important;
+  margin-bottom: 25px !important;
+}
+
+/* Goal Paper Card */
+.MuiContainer-root .MuiPaper-root {
+  border-radius: 25px !important;
+  padding: 25px !important;
+  box-shadow: 0 15px 35px rgba(10, 25, 49, 0.08) !important;
+  transition: 0.3s ease !important;
+}
+
+.MuiContainer-root .MuiPaper-root:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 45px rgba(10, 25, 49, 0.15) !important;
+}
+
+/* Goal Title */
+.MuiPaper-root .MuiTypography-root {
+  font-size: 1.3rem !important;
+  font-weight: 700 !important;
+  color: #1A3D63 !important;
+}
+
+/* Add Task Button */
+.MuiPaper-root .MuiButton-root {
+  background-color: #1A3D63 !important;
+  color: white !important;
+  border-radius: 25px !important;
+  font-weight: 600 !important;
+  padding: 6px 18px !important;
+  transition: 0.3s ease !important;
+}
+
+.MuiPaper-root .MuiButton-root:hover {
+  background-color: #0A1931 !important;
+  transform: scale(1.05);
+}
+
+/* Task List Item */
+.MuiListItem-root {
+  border-radius: 15px !important;
+  margin-bottom: 8px !important;
+  padding: 12px 16px !important;
+  transition: 0.3s ease !important;
+}
+
+.MuiListItem-root:hover {
+  background-color: #f4f8fb !important;
+  transform: translateX(5px);
+}
+
+/* Task Text */
+.MuiListItem-root .MuiTypography-root {
+  font-size: 0.95rem !important;
+  font-weight: 500 !important;
+  color: #0A1931 !important;
+}
+
+/* Icon Buttons */
+.MuiIconButton-root {
+  transition: 0.2s ease !important;
+}
+
+.MuiIconButton-root:hover {
+  transform: scale(1.2);
+}
+
+/* Completed Task Icon */
+.MuiSvgIcon-colorSuccess {
+  color: #1A3D63 !important;
+}
+
+/* Delete Icon */
+.MuiSvgIcon-colorError {
+  color: #b20900 !important;
+}
+
+/* ===== CLEAN NAVBAR DESIGN ===== */
+
+.MuiAppBar-root {
+  background: #1A3D63 !important;   /* solid clean blue */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Title */
+.MuiToolbar-root .MuiTypography-root {
+  font-weight: 700 !important;
+  font-size: 1.3rem !important;
+  color: #ffffff !important;   /* bright white text */
+}
+
+/* Buttons */
+.MuiToolbar-root .MuiButton-root {
+  color: #ffffff !important;   /* white text */
+  font-weight: 600 !important;
+  border-radius: 20px !important;
+  padding: 6px 14px !important;
+  transition: 0.3s ease !important;
+}
+
+/* Hover effect */
+.MuiToolbar-root .MuiButton-root:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Logout slightly highlighted */
+.MuiToolbar-root .MuiButton-root:last-child {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+.MuiToolbar-root .MuiButton-root:last-child:hover {
+  background-color: #ff4d4d !important;
+  color: white !important;
+}
+.goal-importance {
+  font-weight: 600;
+  margin-top: 5px;
+}
