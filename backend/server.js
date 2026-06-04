@@ -6,11 +6,10 @@ const connectDB = require("./config/db");
 const app = express();
 
 connectDB();
-
 const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:3000",
-  "https://your-frontend-url.onrender.com"
+  "https://strivora-ai-1.onrender.com" // 👈 Changed from the placeholder to your live URL
 ];
 
 app.use(cors({
