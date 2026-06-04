@@ -10,17 +10,23 @@ connectDB();
 app.use(cors());
 app.use(express.json());
 
+// ADD THIS
+app.get("/", (req, res) => {
+  res.send("Strivora AI Backend is Running 🚀");
+});
+
 app.use("/api/users", require("./routes/userRoutes"));
 app.use("/api/auth", require("./routes/authRoutes"));
 app.use("/api/goals", require("./routes/goalRoutes"));
 app.use("/api/tasks", require("./routes/taskRoutes"));
 app.use("/api/dashboard", require("./routes/dashboardRoutes"));
-app.use("/api/ai",
-require("./routes/aiRoutes"));
+app.use("/api/ai", require("./routes/aiRoutes"));
+
 console.log(
   "Gemini Key:",
   process.env.GEMINI_API_KEY?.substring(0, 10)
 );
+
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () =>
